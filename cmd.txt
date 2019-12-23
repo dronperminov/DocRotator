@@ -1,0 +1,2 @@
+docker build -t doc_rotator_flask:latest .
+docker run -d -p 5000:5000 doc_rotator_flask:latest
